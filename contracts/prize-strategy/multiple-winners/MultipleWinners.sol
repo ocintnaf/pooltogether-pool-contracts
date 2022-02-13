@@ -8,7 +8,7 @@ import "../PeriodicPrizeStrategy.sol";
 
 contract MultipleWinners is PeriodicPrizeStrategy, PrizeSplit {
 
-  // Maximum number number of winners per award distribution period
+  // Maximum number of winners per award distribution period
   uint256 internal __numberOfWinners;
   
   // Toggle for distributing external ERC 20 awards to all winners
